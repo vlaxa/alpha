@@ -1,6 +1,6 @@
 ![ALPHA SET](/doc/resources/header.png)
 
-*Welcome to BigClown Labs' Alpha Set Git repository!*
+*Welcome to BigClown Labs’ Alpha Set Git repository!*
 
 ## What is it?
 
@@ -19,7 +19,7 @@ With this system you can instantly:
 - Monitor **altitude**
 - Control **relays**
 
-We have a lot of ideas where to go next but let's call it *THE START* :-)
+We have a lot of ideas where to go next, but let’s call it *THE START*. :-)
 The next priority is to make the nodes wireless and battery-operated.
 
 Our software platform builds on proven internet standards, protocols and
@@ -40,8 +40,8 @@ block diagram:
 
 ## Where do I get it?
 
-Well, our project has not officially started yet. That's why we call
-this early stage as "alpha" :-)
+Well, our project has not officially started yet. That’s why we call
+this early stage as “alpha”. :-)
 
 We work hard to launch our e-shop by the beginning of October. However,
 if you want to get the Alpha Set or any of its substantial components earlier,
@@ -80,7 +80,7 @@ on it, please check our [hardware folder](/hardware) where you will find:
 - [Schematic drawings](/hardware/sch)
 - [Assembly drawings](/hardware/asm)
 
-We design all the hardware in Eagle and th related design files altogether with
+We design all the hardware in Eagle and the related design files altogether with
 the libraries will be released later (sometimes in October).
 
 If you have any ideas to share about the overall concept, products or
@@ -101,10 +101,10 @@ Follow us on Twitter and Facebook:
 - https://twitter.com/bigclownlabs
 - https://www.facebook.com/bigclownlabs
 
-And don't forget to add this repository to your watch-list.
+And don’t forget to add this repository to your watch-list.
 
 Thanks and have fun!
 
-**-- Your enthusiastic team of clowns, BIG CLOWNS!**
+**— Your enthusiastic team of clowns, BIG CLOWNS!**
 
 ![DIY is not dead!](/doc/resources/diy_not_dead.png)
