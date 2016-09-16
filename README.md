@@ -29,14 +29,14 @@ components which are easy to integrate into your home automation application.
 
 You can see the example hardware configuration in the picture below:
 
-![BigClown Logo](/doc/resources/hardware_example.png)
+![Hardware configuration example](/doc/resources/hardware_example.png)
 
 ## System concept
 
 The system concept of the Alpha Set is best presented by the following
 block diagram:
 
-![BigClown Logo](/doc/resources/system_concept.png)
+![System concept diagram](/doc/resources/system_concept.png)
 
 ## Where do I get it?
 
