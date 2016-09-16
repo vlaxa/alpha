@@ -1,6 +1,6 @@
 ![ALPHA SET](/doc/resources/header.png)
 
-*Welcome to BigClown Labs' **Alpha Set** Git repository!*
+*Welcome to BigClown Labs' Alpha Set Git repository!*
 
 ## What is it?
 
