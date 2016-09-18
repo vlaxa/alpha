@@ -59,8 +59,10 @@ For the very first steps please see one of the following links:
 ## Software setup
 
 The Alpha Set hardware might be connected to either an **embedded** or
-**desktop** platform. Click on one of the corresponding configuration below for
-further instructions.
+**desktop** platform.
+
+__Click on one__ of the corresponding configuration below for
+further instructions:
 
 ##### Embedded Platform
 
