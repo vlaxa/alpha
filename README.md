@@ -64,7 +64,7 @@ further instructions.
 
 ##### Embedded Platform
 
-- COMING SOON! **Raspberry Pi** (model 2 and 3 is supported)
+- [**Raspberry Pi**](/doc/raspberry-pi.md) (model 2 and 3 is supported)
 
 ##### Desktop Platform
 
