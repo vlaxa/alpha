@@ -92,7 +92,7 @@ identifier):
 
 Write the image to the card (replace X with the appropriate identifier):
 
-`sudo dd if=hypriotos-rpi-v1.0.0-hub.img of=/dev/sdX bs=1m`
+`sudo dd if=hypriotos-rpi-v1.0.0-hub.img of=/dev/sdX bs=1M status=progress`
 
 This will take some time. If you get a "permission denied" message,
 please make sure your MicroSD card is not write-protected
