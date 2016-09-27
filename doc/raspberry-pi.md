@@ -54,6 +54,10 @@ Write the image to the card (replace X with the appropriate identifier):
 
 `sudo dd if=hypriotos-rpi-v1.0.0-hub.img of=/dev/rdiskX bs=1m`
 
+> Note: "sudo" means the process will start with administrator privileges
+> and may require your account password
+> (if you are eligible for administrator rights).
+
 This will take some time. If you get a "permission denied" message,
 please make sure your MicroSD card is not write-protected
 (e.g. by SD card adapter).
@@ -81,6 +85,10 @@ You have to unmount all disk partitions (replace X with the appropriate
 identifier):
 
 `sudo umount /dev/sdX?`
+
+> Note: "sudo" means the process will start with administrator privileges
+> and may require your account password
+> (if you are eligible for administrator rights).
 
 Write the image to the card (replace X with the appropriate identifier):
 
