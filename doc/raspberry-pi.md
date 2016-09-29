@@ -167,6 +167,16 @@ And start it again by:
 
 `docker start hub`
 
+## Notes for Raspberry Pi 2
+
+If you are using Raspberry Pi 2, it is necessary to replace Caddy webserver binary to work properly.
+
+`curl https://getcaddy.com | bash`
+
+`cp /usr/local/bin caddy /var/hub/caddy`
+
+`docker exec hub cp /var/hub/caddy /usr/local/bin/caddy`
+
 ## Open the browser and play with the gadgets
 
 Navigate to URL:
