@@ -171,11 +171,14 @@ And start it again by:
 
 If you are using Raspberry Pi 2, it is necessary to replace Caddy webserver binary to work properly.
 
-`curl https://getcaddy.com | bash`
+```sh
+wget -O - https://github.com/mholt/caddy/releases/download/v0.9.1/caddy_linux_arm7.tar.gz | tar -xz caddy_linux_arm7
+mv caddy_linux_arm7 /var/hub/caddy
 
-`cp /usr/local/bin/caddy /var/hub/caddy`
+docker exec hub cp /var/hub/caddy /usr/local/bin/caddy
+```
 
-`docker exec hub cp /var/hub/caddy /usr/local/bin/caddy`
+Note: Caddy 0.9.3 has broken WebSockets proxy, we recommend to stay on 0.9.1 for now.
 
 ## Open the browser and play with the gadgets
 
