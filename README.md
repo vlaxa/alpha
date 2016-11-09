@@ -72,7 +72,7 @@ further instructions:
 
 - [**macOS**](/doc/macos.md) (version 10.10+ is supported)
 - [**Ubuntu Desktop**](/doc/ubuntu.md) (version 16.04 LTS is supported)
-- COMING SOON! **Windows** (version 7, 8.x & 10 is supported)
+- [**Windows**](/doc/windows.md) (version 7, 8.x & 10 is supported)
 
 ## Where to go next?
 
