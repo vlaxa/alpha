@@ -70,8 +70,8 @@ further instructions:
 
 ##### Desktop Platform
 
+- [**macOS**](/doc/macos.md) (version 10.10+ is supported)
 - COMING SOON! **Windows** (version 7, 8.x & 10 is supported)
-- COMING SOON! **OS X** (version 10.11 is supported)
 - COMING SOON! **Ubuntu Desktop** (version 16.04 LTS is supported)
 
 ## Where to go next?
