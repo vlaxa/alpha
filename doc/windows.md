@@ -9,31 +9,15 @@
 
 ## Download and install DockerToolbox
 
-[DockerToolbox-1.12.1.exe](https://github.com/docker/toolbox/releases/download/v1.12.1/DockerToolbox-1.12.1.exe)
+Download [DockerToolbox-1.12.2.exe](https://github.com/docker/toolbox/releases/download/v1.12.2/DockerToolbox-1.12.2.exe), open it and follow installation instructions (you may use Docker’s [installation manual](https://docs.docker.com/toolbox/toolbox_install_windows/#/step-2-install-docker-toolbox)).
 
-Allow VirtualBox through Windows Firewall
+Allow VirtualBox through Windows Firewall.
 
-Docker Toolbox 1.12.1 contains:
+Start **Docker Quickstart Terminal**.
 
-- Docker 1.12.1
-- Boot2Docker ISO 1.12.1
-- docker-machine 0.8.1
-- docker-compose 1.8.0
-- Kitematic 0.12.0
-- Git version 2.9.0
-- VirtualBox 5.1.4
+Run `docker-machine stop` and then `exit`.
 
-## Download and install VirtualBox Extension Pack
-
-Start **Docker Quickstart Terminal**
-
-`docker-machine stop`
-
-`exit`
-
-[VirtualBox 5.1.4 Oracle VM VirtualBox Extension Pack](http://download.virtualbox.org/virtualbox/5.1.4/Oracle_VM_VirtualBox_Extension_Pack-5.1.4-110228.vbox-extpack)
-
-Install by doubleclick.
+Download [VirtualBox 5.1.8 Oracle VM VirtualBox Extension Pack](http://download.virtualbox.org/virtualbox/5.1.8/Oracle_VM_VirtualBox_Extension_Pack-5.1.8.vbox-extpack) (SHA1 2c1e2f5564e9ea5c704021630c87cb70a7bf38e5) and install it.
 
 ## Configure VirtualBox USB and Network
 

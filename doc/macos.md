@@ -11,31 +11,23 @@
 
 ## Download and install DockerToolbox
 
-[DockerToolbox-1.12.1.pkg](https://github.com/docker/toolbox/releases/download/v1.12.1/DockerToolbox-1.12.1.pkg)
-
-Docker Toolbox 1.12.1 contains:
-
-- Docker 1.12.1
-- Boot2Docker ISO 1.12.1
-- docker-machine 0.8.1
-- docker-compose 1.8.0
-- Kitematic 0.12.0
-- Git version 2.9.0
-- VirtualBox 5.1.4
+Download [DockerToolbox-1.12.2.pkg](https://github.com/docker/toolbox/releases/download/v1.12.2/DockerToolbox-1.12.2.pkg), open it and follow installation instructions (you may use Docker’s [installation manual](https://docs.docker.com/toolbox/toolbox_install_mac/#/step-2-install-docker-toolbox)).
 
 ![docker](resources/docker-toolbox-mac.png)
 
-## Download and install VirtualBox Extension Pack
+Start **Docker Quickstart Terminal**.
 
-Start **Docker Quickstart Terminal**
+Run `docker-machine stop` and then `exit`.
 
-`docker-machine stop`
+Download [VirtualBox 5.1.8 Oracle VM VirtualBox Extension Pack](http://download.virtualbox.org/virtualbox/5.1.8/Oracle_VM_VirtualBox_Extension_Pack-5.1.8.vbox-extpack) and install it; copy and paste to your terminal:
 
-`exit`
-
-[VirtualBox 5.1.4 Oracle VM VirtualBox Extension Pack](http://download.virtualbox.org/virtualbox/5.1.4/Oracle_VM_VirtualBox_Extension_Pack-5.1.4-110228.vbox-extpack)
-
-Install by doubleclick.
+```sh
+cd ~/Downloads
+wget -O VirtualBox-5.1.8.vbox-extpack http://download.virtualbox.org/virtualbox/5.1.8/Oracle_VM_VirtualBox_Extension_Pack-5.1.8.vbox-extpack
+# If checksum did not match, then do not continue!
+echo '2c1e2f5564e9ea5c704021630c87cb70a7bf38e5  VirtualBox-5.1.8.vbox-extpack' | shasum -c
+open VirtualBox-5.1.8.vbox-extpack
+```
 
 ## Configure VirtualBox USB and Network
 
