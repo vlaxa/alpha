@@ -1,7 +1,5 @@
 = Blynk integration
 :imagesdir: images
-:source-highlighter: highlight.js
-:source-language: sh
 // enable btn:[] macro
 :experimental:
 

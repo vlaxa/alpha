@@ -1,7 +1,4 @@
 = BigClown Alpha – Software Setup for Raspberry Pi Host Platform
-:source-highlighter: highlight.js
-:source-language: sh
-// custom
 :host-rpi:
 :host-name: Raspberry Pi
 :hypriot-zip: hypriotos-rpi-v1.0.0-hub.zip

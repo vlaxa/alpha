@@ -1,7 +1,4 @@
 = BigClown Alpha – Software Setup for macOS Host Platform
-:source-highlighter: highlight.js
-:source-language: sh
-// custom
 :host-mac:
 :host-name: macOS
 

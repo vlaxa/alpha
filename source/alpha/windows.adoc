@@ -1,7 +1,4 @@
 = BigClown Alpha – Software Setup for Microsoft Windows Host Platform
-:source-highlighter: highlight.js
-:source-language: sh
-// custom
 :host-win:
 :host-name: Microsoft Windows
 

@@ -1,7 +1,4 @@
 = BigClown Alpha – Software Setup for Ubuntu Host Platform
-:source-highlighter: highlight.js
-:source-language: sh
-// custom
 :host-ubuntu:
 :host-name: Ubuntu
 
