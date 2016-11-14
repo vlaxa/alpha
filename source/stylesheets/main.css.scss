@@ -1,24 +1,58 @@
 @import "settings";
 @import "asciidoc";
 
-dt, th.tableblock, td.content, div.footnote {
-  // NOTE text-rendering is already set for p
-  text-rendering: optimizeLegibility;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-// QUESTION should we tighten letter spacing of text in footnotes?
-h1, h2, p, td.content, span.alt {
-  letter-spacing: -0.01em;
-}
+header {
+  background: linear-gradient(to top, #415061, #1b1d20);
 
-p, td.content, div.footnote {
-  strong {
-    // NOTE needs to apply anywhere we have bold prose
-    letter-spacing: -0.005em;
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding: 0.8em;
+    width: 10em;
   }
 }
 
-// NOTE include blockquote for when it doesn't have a nested p
+footer {
+  padding: 1em 0;
+  background-color: #1b1d20;
+  color: #eee;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+
+  a, a:visited {
+    color: #eee;
+  }
+  a:hover {
+    color: white;
+  }
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.main-content {
+  max-width: 760px;
+  margin: 3em auto 1em auto;
+  flex: 1;
+}
+
+
+// Hacks from https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/master/sass/settings/_asciidoctor.scss
+
+dt, th.tableblock, td.content, div.footnote {
+  // NOTE text-rendering is already set for p.
+  text-rendering: optimizeLegibility;
+}
+
+// NOTE include blockquote for when it doesn't have a nested p.
 p, blockquote, dt, td.content, span.alt {
   font-size: 1.0625rem;
 }
@@ -27,21 +61,9 @@ p {
   margin-bottom: 1.25rem;
 }
 
-// restore font size in sidebar block and regular table cells
+// Restore font size in sidebar block and regular table cells.
 .sidebarblock p, .sidebarblock dt, .sidebarblock td.content, p.tableblock {
   font-size: 1em;
-}
-
-.exampleblock > .content {
-  // white
-  //background-color: #fff;
-  //border-color: $panel-border-color;
-  //@include single-box-shadow($panel-border-color, 0, 1px, 2px);
-
-  // light yellow
-  background-color: #fffef7; // from rgb(252,247,227), analogous to #f8f8f7
-  border-color: $panel-border-color;
-  @include single-box-shadow($panel-border-color, 0, 1px, 4px);
 }
 
 @import "print";
