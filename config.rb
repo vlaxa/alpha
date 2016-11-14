@@ -1,3 +1,5 @@
+require_relative 'lib/sass-functions'
+
 config[:layouts_dir] = '_layouts'
 
 activate :asciidoc, attributes: {
