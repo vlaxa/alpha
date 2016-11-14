@@ -1,0 +1,8 @@
+/.bundle
+/build
+*.html
+.ruby-gemset
+.ruby-version
+
+.DS_Store
+*~
