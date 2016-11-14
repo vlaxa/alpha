@@ -70,22 +70,22 @@ The Alpha Set hardware might be connected to either an *embedded* or *desktop* p
 
 === Embedded Platform
 
-* link:/doc/raspberry-pi.adoc[*Raspberry Pi*] (model 2 and 3 is supported)
+* link:raspberry-pi.adoc[*Raspberry Pi*] (model 2 and 3 is supported)
 
 
 === Desktop Platform
 
-* link:doc/macos.adoc[*macOS*] (version 10.10+ is supported)
-* link:doc/ubuntu.adoc[*Ubuntu Desktop*] (version 16.04 LTS is supported)
-* link:doc/windows.adoc[*Windows*] (version 7, 8.x & 10 is supported)
+* link:macos.adoc[*macOS*] (version 10.10+ is supported)
+* link:ubuntu.adoc[*Ubuntu Desktop*] (version 16.04 LTS is supported)
+* link:windows.adoc[*Windows*] (version 7, 8.x & 10 is supported)
 
 
 == Where to go next?
 
 If you want to learn about our hardware design internals or provide feedback on it, please check our link:/hardware[hardware folder] where you will find:
 
-* link:hardware/sch[Schematic drawings]
-* link:hardware/asm[Assembly drawings]
+* link:/hardware/sch[Schematic drawings]
+* link:/hardware/asm[Assembly drawings]
 
 We design all the hardware in Eagle and the related design files altogether with the libraries will be released later (sometimes in October).
 
