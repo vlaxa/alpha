@@ -1,4 +1,4 @@
-= image:header.png[ALPHA SET]
+= ALPHA SET
 :imagesdir: images
 
 _Welcome to BigClown Labs’ Alpha Set Git repository!_
