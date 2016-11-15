@@ -39,7 +39,7 @@ NOTE: The following procedure has been tested on Ubuntu 16.04 LTS.
 [loweralpha]
 .. on Alpine Linux:
 +
-    apk add git ruby ruby-dev
+    apk add git ruby ruby-io-console ruby-json build-base libffi-dev ruby-dev
 
 .. on Ubuntu:
 +
