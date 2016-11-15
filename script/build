@@ -1,0 +1,15 @@
+#!/bin/sh
+# vim: set ts=4:
+#
+# Build the site in the specified build directory.
+#
+set -eu
+
+: ${BUILD_DIR:="build"}
+
+
+cd "$(dirname "$0")/.."
+. script/bootstrap
+
+einfo 'Building site...'
+bundle exec middleman build --build-dir="$BUILD_DIR"

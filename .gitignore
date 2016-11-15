@@ -1,4 +1,5 @@
 /.bundle
+/.gem
 /build
 *.html
 .ruby-gemset

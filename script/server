@@ -1,0 +1,12 @@
+#!/bin/sh
+# vim: set ts=4:
+#
+# Run development HTTP server, watch the source files and automatically
+# reload the browser whenever files change.
+#
+set -eu
+
+cd "$(dirname "$0")/.."
+. script/bootstrap
+
+bundle exec middleman server
