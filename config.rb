@@ -9,6 +9,8 @@ activate :asciidoc, attributes: {
 }
 
 configure :development do
+  Bundler.require(:development)
+
   # Reload the browser automatically whenever files change.
   activate :livereload, no_swf: true, host: '127.0.0.1'
 end
