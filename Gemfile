@@ -16,7 +16,8 @@ gem 'zurb-foundation', '~> 4.3.2'
 gem 'coderay', '~> 1.1'
 
 # Middleman Gems
-gem 'middleman', '~> 4.1'
+gem 'middleman-core', '~> 4.1'
+gem 'middleman-cli', '~> 4.1'
 gem 'middleman-livereload', '~> 3.4'
 gem 'middleman-asciidoc'
 gem 'middleman-compass', '~> 4.0'
