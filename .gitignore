@@ -2,6 +2,7 @@
 /.gem
 /build
 *.html
+.deploykey
 .ruby-gemset
 .ruby-version
 

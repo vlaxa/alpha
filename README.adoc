@@ -1,4 +1,9 @@
 = BigClown Documentation Repository
+:gh-name: bigclownlabs/bc-doc
+
+ifdef::env-github[]
+image:https://travis-ci.org/{gh-name}.svg?branch=master["Deploy Status", link="https://travis-ci.org/{gh-name}"]
+endif::env-github[]
 
 
 == Preface
