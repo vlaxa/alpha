@@ -6,10 +6,12 @@
 set -eu
 
 : ${BUILD_DIR:="build"}
+: ${BUILD_ENV:="production"}
 
 
 cd "$(dirname "$0")/.."
 . script/bootstrap
 
 einfo 'Building site...'
-bundle exec middleman build --build-dir="$BUILD_DIR" --watcher-disable
+MM_ENV=$BUILD_ENV bundle exec \
+	middleman build --build-dir="$BUILD_DIR" --watcher-disable

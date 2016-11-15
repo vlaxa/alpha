@@ -6,7 +6,11 @@
 #
 set -eu
 
+: ${BUILD_ENV:="development"}
+
+
 cd "$(dirname "$0")/.."
 . script/bootstrap
 
-bundle exec middleman server
+MM_ENV=$BUILD_ENV bundle exec \
+	middleman server
