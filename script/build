@@ -12,4 +12,4 @@ cd "$(dirname "$0")/.."
 . script/bootstrap
 
 einfo 'Building site...'
-bundle exec middleman build --build-dir="$BUILD_DIR"
+bundle exec middleman build --build-dir="$BUILD_DIR" --watcher-disable
