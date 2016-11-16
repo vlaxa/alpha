@@ -8,6 +8,11 @@ activate :asciidoc, attributes: {
   'coderay-css' => 'style',
 }
 
+# Automatically add width and heigh attributes (detected by fastimage gem) to
+# the img tag created with image_tag helper. This does not work for images in
+# AsciiDoc documents.
+activate :automatic_image_sizes
+
 configure :development do
   Bundler.require(:development)
 
