@@ -15,7 +15,6 @@ end
 
 # Build-specific configuration
 configure :build do
-  config[:http_prefix] = '/bc-doc'
   activate :minify_css
 end
 
