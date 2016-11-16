@@ -1,4 +1,4 @@
-require_relative 'lib/sass-functions'
+require_relative 'lib/sass_functions'
 
 config[:layouts_dir] = '_layouts'
 
