@@ -61,7 +61,7 @@ git clone --progress "$remote_url" "$build_dir"
 git -C "$build_dir" checkout "$DEPLOY_BRANCH" \
 	|| die "Branch $DEPLOY_BRANCH does not exist"
 
-BUILD_DIR="$build_dir" ./script/build
+./script/build --build-dir="$build_dir"
 
 cd "$build_dir"
 

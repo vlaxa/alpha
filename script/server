@@ -13,4 +13,4 @@ cd "$(dirname "$0")/.."
 . script/bootstrap
 
 MM_ENV=$BUILD_ENV bundle exec \
-	middleman server
+	middleman server "$@"
