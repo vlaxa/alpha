@@ -1,6 +1,17 @@
 require_relative 'lib/sass_functions'
+require_relative 'lib/middleman_helpers'
+
+helpers MiddlemanHelpers
 
 config[:layouts_dir] = '_layouts'
+
+# Custom config variables
+config[:site] = {
+  github: {
+    repo_slug: 'bigclownlabs/bc-doc',
+    branch: 'master'
+  }
+}
 
 activate :asciidoc, attributes: {
   'source-language' => 'sh',
