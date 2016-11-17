@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jirutka/listen.git
+  revision: c88ef3be3749a17a18875533442a611bd42dae4f
+  tag: v3.0.8-nodep
+  specs:
+    listen (3.0.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,9 +36,6 @@ GEM
     hashie (3.4.6)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
-    listen (3.0.8)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     memoist (0.15.0)
     middleman-asciidoc (1.0.0.rc.2)
       asciidoctor (>= 1.5.0)
@@ -97,10 +101,13 @@ PLATFORMS
 
 DEPENDENCIES
   coderay (~> 1.1)
+  listen!
   middleman-asciidoc
   middleman-cli (~> 4.1)
   middleman-core (~> 4.1)
   middleman-livereload (~> 3.4)
+  rb-fsevent (~> 0.9, >= 0.9.4)
+  rb-inotify (~> 0.9, >= 0.9.7)
   tzinfo-data
   wdm (~> 0.1.0)
   zurb-foundation (~> 4.3.2)
