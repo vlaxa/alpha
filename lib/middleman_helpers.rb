@@ -11,4 +11,13 @@ module MiddlemanHelpers
 
     [GITHUB_URL, repo_slug, 'edit', branch, config[:source], source_file_path].join('/')
   end
+
+  # Returns SVG code to use beforehand declared SVG symbol.
+  def use_icon(icon_id)
+    <<-HTML
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+        <use xlink:href="#icon-#{icon_id}" />
+      </svg>
+    HTML
+  end
 end
