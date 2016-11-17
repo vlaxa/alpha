@@ -46,7 +46,7 @@ NOTE: The following procedure has been tested on Ubuntu 16.04 LTS.
 
 .. on Ubuntu:
 +
-    sudo apt-get install git ruby ruby-dev
+    sudo apt-get install git ruby ruby-dev build-essential
 
 . Clone the documentation repository from GitHub:
 +
