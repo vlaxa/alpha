@@ -1,4 +1,5 @@
 // Source: https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/2ad3000fd596b4673b6576e42df448d531982502/sass/components/_asciidoc.scss
+// Note: The file has been slightly modified to get rid of Compass.
 
 // QUESTION: should we add max-width:100% and height:auto to svg?
 object, svg {
@@ -147,7 +148,7 @@ kbd {
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   @include radius(3px);
-  @include box-shadow(0 1px 0 rgba(0, 0, 0, .2), 0 0 0 0.1em white inset);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset;
   margin: 0 0.15em;
   padding: 0.2em 0.5em;
   vertical-align: middle;

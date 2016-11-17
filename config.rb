@@ -4,6 +4,7 @@ require_relative 'lib/middleman_helpers'
 helpers MiddlemanHelpers
 
 config[:layouts_dir] = '_layouts'
+config[:sass_assets_paths] << Foundation.scss_path
 
 # Custom config variables
 config[:site] = {
@@ -34,7 +35,4 @@ end
 # Build-specific configuration
 configure :build do
   activate :minify_css
-end
-
-compass_config do |conf|
 end

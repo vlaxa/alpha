@@ -1,4 +1,5 @@
 // Source: https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/2ad3000fd596b4673b6576e42df448d531982502/sass/components/_print.scss
+// Note: The file has been slightly modified to get rid of Compass.
 
 .print-only { display: none !important; }
 @media print {
@@ -6,7 +7,7 @@
     margin: 1.25cm 0.75cm;
   }
   * {
-    @include box-shadow(none !important);
+    box-shadow: none !important;
     text-shadow: none !important;
   }
   a {

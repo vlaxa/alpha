@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
-# Sass-based stylesheet framework
-gem 'compass', '~> 1.0'
-
 # CSS framework used in Asciidoctor styles
 gem 'zurb-foundation', '~> 4.3.2'
 
@@ -16,7 +13,6 @@ gem 'coderay', '~> 1.1'
 gem 'middleman-core', '~> 4.1'
 gem 'middleman-cli', '~> 4.1'
 gem 'middleman-asciidoc'
-gem 'middleman-compass', '~> 4.0'
 
 # Gems for live reload etc.
 group :development do

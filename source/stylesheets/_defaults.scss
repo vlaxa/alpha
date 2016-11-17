@@ -1,10 +1,10 @@
 // Source: https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/2ad3000fd596b4673b6576e42df448d531982502/sass/settings/_defaults.scss
+// Note: The file has been slightly modified to get rid of Compass.
 
 // TIP set a value to null to disable
 @import "normalize";
 $cursor-default-value: auto !default;
 @import "foundation/components/global";
-@import "compass/css3/box-shadow";
 
 // better defaults (TODO maybe do these at the bottom of the theme colors)
 //$table-line-height: 1.6 !default;
