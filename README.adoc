@@ -30,7 +30,7 @@ The goal is to achieve the following functionality:
 
 System requirements:
 
-* Ruby 2.0+ with development files,
+* Ruby ≥ 2.2.2 with development files,
 * C/C++ build environment with make and gcc (for building native extensions of Ruby gems).
 
 
