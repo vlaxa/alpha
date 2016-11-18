@@ -16,6 +16,8 @@ export GEM_HOME="$(pwd)/.gem"
 export PATH="$GEM_HOME/bin:$PATH"
 rehash 2>/dev/null || true
 
+mkdir -p "$GEM_HOME"
+
 if ! has ruby || ! has gem; then
 	die 'Ruby not found!' \
 		'TIP: Install package "ruby" using system package manager.'
