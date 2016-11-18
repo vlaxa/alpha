@@ -5,6 +5,10 @@
 #
 set -eu
 
+# Minimal required Ruby version
+RUBY_MIN_VERSION='2.2.2'
+
+
 cd "$(dirname "$0")/.."
 . script/utils.sh
 
@@ -15,6 +19,12 @@ rehash 2>/dev/null || true
 if ! has ruby || ! has gem; then
 	die 'Ruby not found!' \
 		'TIP: Install package "ruby" using system package manager'
+fi
+
+ruby_ver="$(ruby -e 'puts RUBY_VERSION')"
+if [ $(compver "$ruby_ver" "$RUBY_MIN_VERSION") = -1 ]; then
+	die "Ruby $RUBY_MIN_VERSION or later is required, but you have $ruby_ver!" \
+		'TIP: Update package "ruby" or install newer version with rbenv'
 fi
 
 if ! has bundler; then
