@@ -18,13 +18,13 @@ rehash 2>/dev/null || true
 
 if ! has ruby || ! has gem; then
 	die 'Ruby not found!' \
-		'TIP: Install package "ruby" using system package manager'
+		'TIP: Install package "ruby" using system package manager.'
 fi
 
 ruby_ver="$(ruby -e 'puts RUBY_VERSION')"
 if [ $(compver "$ruby_ver" "$RUBY_MIN_VERSION") = -1 ]; then
 	die "Ruby $RUBY_MIN_VERSION or later is required, but you have $ruby_ver!" \
-		'TIP: Update package "ruby" or install newer version with rbenv'
+		'TIP: Update package "ruby" or install newer version with rbenv.'
 fi
 
 if ! has bundler; then
@@ -41,7 +41,7 @@ sed -i.orig '/BUNDLE_WITHOUT/d' .bundle/config 2>/dev/null || true
 if ! bundle check >/dev/null 2>&1; then
 	if ! (cd .gem; ruby -e 'require "mkmf"; exit MakeMakefile.have_devel? ? 0 : 1'); then
 		die 'Ruby header files or C/C++ toolchain not installed' \
-			'TIP: Try to install package ruby-dev or ruby-devel using system package manager'
+			'TIP: Try to install package ruby-dev or ruby-devel using system package manager.'
 	fi
 
 	einfo 'Installing gem dependencies...'
