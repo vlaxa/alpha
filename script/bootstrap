@@ -12,6 +12,10 @@ RUBY_MIN_VERSION='2.2.2'
 cd "$(dirname "$0")/.."
 . script/utils.sh
 
+if [ "$(id -u)" -eq 0 ] && [ "${ALLOW_ROOT:-}" != 'yes' ]; then
+	die 'Do not run this script as root!'
+fi
+
 export GEM_HOME="$(pwd)/.gem"
 export PATH="$GEM_HOME/bin:$PATH"
 rehash 2>/dev/null || true
