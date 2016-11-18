@@ -6,6 +6,9 @@ image:https://travis-ci.org/{gh-name}.svg?branch=master["Deploy Status", link="h
 endif::env-github[]
 
 
+IMPORTANT: If you are looking for documentation, please proceed to this address: *http://doc.bigclown.com*
+
+
 == Preface
 
 We use AsciiDoc text document format for writing documentation.
@@ -66,3 +69,4 @@ NOTE: The following procedure has been tested on Ubuntu 16.04 LTS.
 . Directly modify AsciiDoc files in the *source* directory in your favourite text editor and see the immediate effect in the browser.
 
 . Good luck with undisturbed writing!
+
