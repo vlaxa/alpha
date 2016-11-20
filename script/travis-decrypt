@@ -4,7 +4,7 @@ set -eu
 
 . "$(dirname "$0")"/utils.sh
 
-if [ -z "$encrypted_15090085a9e1_key" ]; then
+if [ -z "${encrypted_15090085a9e1_key:-}" ]; then
 	ewarn 'Decryption key is not available'
 	exit 0
 fi
