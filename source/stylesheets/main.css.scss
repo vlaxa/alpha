@@ -32,6 +32,9 @@ header {
     .icon-label {
       font-size: 0;
     }
+    a:active, a:focus, a:hover {
+      text-decoration: none;
+    }
   }
 }
 
