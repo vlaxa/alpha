@@ -9,7 +9,7 @@
   Example topics: `bedroom/temperature`, `kitchen/light/set`.
 - MQTT server is called *Broker* and clients can *publish* messages and *subscribe* to different types of topics.
 - In subscribe topics the wildcard `+` can be used for single level subscription and symbol `&num;` for multi level subscription.
-  This way you can subscribe to all temperature topics with `&num;/temperature`.
+  Symbol `&num;` can be used only at the end of subscribed topic.
   http://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices[More on topics]
 
 
