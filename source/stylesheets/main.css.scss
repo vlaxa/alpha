@@ -46,10 +46,10 @@ footer {
 header, footer {
   color: rgba(#fff, 0.8);
 
-  a, a:visited {
+  a {
     color: rgba(#fff, 0.8);
   }
-  a:hover, a:active {
+  a:active, a:focus, a:hover {
     color: white;
   }
 }
