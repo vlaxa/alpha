@@ -8,11 +8,14 @@ set -eu
 # Minimal required Ruby version
 RUBY_MIN_VERSION='2.2.2'
 
+# Allow to run bootstrap as root (used when building an image).
+: ${ALLOW_ROOT:="no"}
+
 
 cd "$(dirname "$0")/.."
 . script/utils.sh
 
-if [ "$(id -u)" -eq 0 ] && [ "${ALLOW_ROOT:-}" != 'yes' ]; then
+if [ "$(id -u)" -eq 0 ] && [ "$ALLOW_ROOT" != 'yes' ]; then
 	die 'Do not run this script as root!'
 fi
 
@@ -50,6 +53,9 @@ if ! bundle check >/dev/null 2>&1; then
 			'TIP: Try to install package ruby-dev or ruby-devel using system package manager.'
 	fi
 
+	if [ "$ALLOW_ROOT" = 'yes' ]; then
+		bundle config silence_root_warning true
+	fi
 	einfo 'Installing gem dependencies...'
 	bundle install
 fi
