@@ -29,7 +29,7 @@ And start it again by:
 
 == Open the browser and play with the gadgets
 
-Navigate to URL https://hub.local:8080/dashboard or https://localhost:8080/dashboard.
+Navigate to URL http://hub.local:8080/dashboard or http://localhost:8080/dashboard.
 
 NOTE: Be aware that the connection is not encrypted, so it’s not safe to access it over public internet.
 
